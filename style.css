@@ -192,3 +192,18 @@ footer{
     font-size: 14px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 940px) {
+    .footer-links__info-row__right-side{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        float: left;
+        margin-left: -30vw;
+
+    }
+    .footer-links__info-row__left-side {
+        display: flex;
+        justify-content: center;
+    }
+}
